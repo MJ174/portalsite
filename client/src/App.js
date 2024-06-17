@@ -35,7 +35,7 @@ function App() {
         <Route path="/membership2" element={<Membership2 />} />
         <Route path="/LandingPage" element={<LandingPage />} />
         <Route path="/Disease" element={<Disease />} />
-        <Route path='/homepage' element={<Homepage/>}/>
+        <Route path="/homepage" element={<Homepage />} />
       </Routes>
       <footer>
         <div className="footer-contents">
@@ -44,11 +44,11 @@ function App() {
             <a href="#">이메일추출방지정책</a>
           </div>
           <div className="owner">
-            대표 : 신명진 <span className="pipe" /> 전화번호 : 031.xxx.xxxx
+            <p>
+              대표 : 신명진 <span className="pipe" /> 전화번호 : 031.xxx.xxxx
+            </p>
           </div>
-          <div className="copyright">
-            © 2024 CHURURUP. All rights reserved.
-          </div>
+          <p>© 2024 CHURURUP. All rights reserved.</p>
         </div>
       </footer>
     </Router>
@@ -56,4 +56,3 @@ function App() {
 }
 
 export default App;
-
